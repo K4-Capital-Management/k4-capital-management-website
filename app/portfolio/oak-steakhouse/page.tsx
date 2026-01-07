@@ -10,6 +10,7 @@ const galleryImages = [
   "/projects/oak-steakhouse/oak-steakhouse-1.jpg",
   "/projects/oak-steakhouse/oak-steakhouse-2.jpg",
   "/projects/oak-steakhouse/oak-steakhouse-3.jpg",
+  "/projects/oak-steakhouse/oak-steakhouse-4.jpg",
 ];
 
 export default function OakSteakhouse() {

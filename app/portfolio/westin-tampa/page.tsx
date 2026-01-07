@@ -11,7 +11,6 @@ const galleryImages = [
   "/projects/westin-tampa/westin-tampa-2.jpg",
   "/projects/westin-tampa/westin-tampa-3.jpg",
   "/projects/westin-tampa/westin-tampa-4.jpg",
-  "/projects/westin-tampa/westin-tampa-5.jpg",
 ];
 
 export default function WestinTampa() {
