@@ -10,6 +10,10 @@ const galleryImages = [
   "/projects/bobby-brand/bobby-brand-1.jpg",
   "/projects/bobby-brand/bobby-brand-2.jpg",
   "/projects/bobby-brand/bobby-brand-3.jpg",
+  "/projects/bobby-brand/bobby-brand-4.jpg",
+  "/projects/bobby-brand/bobby-brand-5.jpg",
+  "/projects/bobby-brand/bobby-brand-6.jpg",
+  "/projects/bobby-brand/bobby-brand-7.jpg",
 ];
 
 export default function BobbyBrand() {
