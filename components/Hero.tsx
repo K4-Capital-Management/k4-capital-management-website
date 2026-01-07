@@ -39,7 +39,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl text-gray-300 md:text-2xl font-light"
           >
-            Navigating the Complexities to Optimize Returns and Secure Your Financial Future
+            Deploying Capital in Private Credit, Mezzanine Debt, and Structured Equity
           </motion.p>
         </div>
       </div>

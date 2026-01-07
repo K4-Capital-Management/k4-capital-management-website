@@ -8,32 +8,33 @@ import Link from "next/link";
 const projects = [
   {
     title: "THE WESTIN NASHVILLE",
-    image: "/projects/westin-nashville.webp",
+    image: "/projects/westin-nashville/westin-nashville-1.jpg",
     href: "/portfolio/westin-nashville",
   },
   {
     title: "THE BOBBY NASHVILLE",
-    image: "/projects/bobby-nashville.webp",
+    image: "/projects/bobby-nashville/bobby-nashville-1.jpg",
     href: "/portfolio/bobby-nashville",
   },
   {
     title: "THE BOBBY BRAND",
-    image: "/projects/bobby-brand.webp",
+    image: "/projects/bobby-brand/bobby-brand-1.jpg",
     href: "/portfolio/bobby-brand",
   },
   {
     title: "OAK STEAKHOUSE",
-    image: "/projects/oak-steakhouse.jpg",
+    image: "/projects/oak-steakhouse/oak-steakhouse-1.jpg",
     href: "/portfolio/oak-steakhouse",
   },
   {
     title: "DISTRIKT HOTEL NEW YORK",
-    image: "/projects/distrikt-hotel.jpg",
+    image: "/projects/distrikt-hotel/distrikt-hotel-1.jpg",
     href: "/portfolio/distrikt-hotel",
   },
   {
     title: "THE WESTIN TAMPA",
-    image: "/projects/westin-tampa.webp",
+    image: "/projects/westin-tampa/westin-tampa-1.jpg",
+    imagePosition: "object-top",
     href: "/portfolio/westin-tampa",
   },
 ];
@@ -64,17 +65,21 @@ export default function Projects() {
             >
               <Link href={project.href} className="group block">
                 <div className="relative overflow-hidden rounded-lg bg-gray-800 aspect-[4/3]">
-                  {/* Placeholder for project image */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center">
-                    <span className="text-gray-500 text-sm">Project Image</span>
-                  </div>
-                  <div className="absolute inset-0 bg-black/40 transition-all group-hover:bg-black/20" />
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img 
+                    src={project.image}
+                    alt={project.title}
+                    className={`absolute inset-0 w-full h-full object-cover ${project.imagePosition || 'object-center'}`}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+                  <div className="absolute inset-0 bg-black/0 transition-all group-hover:bg-black/10" />
                   <div className="absolute bottom-0 left-0 right-0 p-6">
                     <h3 className="text-xl font-light text-white tracking-wide">
                       {project.title}
                     </h3>
-                    <p className="mt-2 text-sm text-gray-300 transition-all group-hover:text-white">
-                      View More →
+                    <p className="mt-2 text-sm text-gray-300 transition-all group-hover:text-white flex items-center gap-1">
+                      View More 
+                      <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
                     </p>
                   </div>
                 </div>
