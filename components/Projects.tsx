@@ -27,12 +27,12 @@ const projects = [
     href: "/portfolio/oak-steakhouse",
   },
   {
-    title: "DISTRIKT HOTEL NEW YORK",
+    title: "DISTRIKT HOTEL NEW YORK CITY",
     image: "/projects/distrikt-hotel/distrikt-hotel-1.jpg",
     href: "/portfolio/distrikt-hotel",
   },
   {
-    title: "THE WESTIN TAMPA",
+    title: "THE WESTIN TAMPA BAY",
     image: "/projects/westin-tampa/westin-tampa-1.jpg",
     imagePosition: "object-top",
     href: "/portfolio/westin-tampa",
@@ -66,7 +66,7 @@ export default function Projects() {
               <Link href={project.href} className="group block">
                 <div className="relative overflow-hidden rounded-lg bg-gray-800 aspect-[4/3]">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img 
+                  <img
                     src={project.image}
                     alt={project.title}
                     className={`absolute inset-0 w-full h-full object-cover ${project.imagePosition || 'object-center'}`}
@@ -78,7 +78,7 @@ export default function Projects() {
                       {project.title}
                     </h3>
                     <p className="mt-2 text-sm text-gray-300 transition-all group-hover:text-white flex items-center gap-1">
-                      View More 
+                      View More
                       <span className="inline-block transition-transform group-hover:translate-x-1">→</span>
                     </p>
                   </div>
