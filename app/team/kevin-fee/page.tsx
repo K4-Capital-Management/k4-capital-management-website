@@ -72,7 +72,7 @@ export default function KevinFee() {
                 </p>
 
                 <p className="text-gray-700 leading-relaxed">
-                  Kevin graduatd from the State University of New York at Cortland in 1990 with a degree in Economics. He maintains residences in both Montauk and Manhattan.
+                  Kevin graduated from the State University of New York at Cortland in 1990 with a degree in Economics. He maintains residences in both Montauk and Manhattan.
                 </p>
               </div>
             </motion.div>
