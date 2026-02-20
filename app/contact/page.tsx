@@ -150,14 +150,6 @@ export default function Contact() {
                     </p>
                   </div>
                   
-                  {/* Nashville */}
-                  <div>
-                    <h4 className="text-lg font-semibold text-k4-navy mb-2">Nashville</h4>
-                    <p className="text-gray-600">
-                      401 Church Street, Suite 2800<br />
-                      Nashville, TN 37219
-                    </p>
-                  </div>
                 </div>
               </div>
             </motion.div>

@@ -60,11 +60,6 @@ export default function Footer() {
                 <p>New York, NY 10019</p>
               </div>
               <div>
-                <p className="font-semibold text-white">Nashville</p>
-                <p>401 Church Street, Suite 2800</p>
-                <p>Nashville, TN 37219</p>
-              </div>
-              <div>
                 <a
                   href="mailto:info@k4capitalmanagement.com"
                   className="hover:text-white transition-colors"
