@@ -149,7 +149,16 @@ export default function Contact() {
                       New York, NY 10019
                     </p>
                   </div>
-                  
+
+                  {/* Nashville */}
+                  <div>
+                    <h4 className="text-lg font-semibold text-k4-navy mb-2">Nashville</h4>
+                    <p className="text-gray-600">
+                      600 Broadway, Suite 3112<br />
+                      Nashville, TN 37203
+                    </p>
+                  </div>
+
                 </div>
               </div>
             </motion.div>
