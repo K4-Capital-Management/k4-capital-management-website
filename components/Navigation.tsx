@@ -19,7 +19,7 @@ export default function Navigation() {
 
   return (
     <nav className="fixed top-0 z-50 w-full bg-k4-navy/80 backdrop-blur-md">
-      <div className="mx-auto max-w-7xl px-6 py-4">
+      <div className="mx-auto max-w-7xl px-6 py-2">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
@@ -27,7 +27,7 @@ export default function Navigation() {
             <img 
               src="/k4-logo.png"
               alt="K4 Capital Management"
-              className="h-20 w-auto"
+              className="h-12 w-auto"
               style={{ 
                 filter: 'brightness(0) invert(1) contrast(2)',
                 background: 'transparent'
