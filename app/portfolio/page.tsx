@@ -54,22 +54,40 @@ const projects = [
 // Venture capital investments. Add a logo file to /public/ventures/ for each entry.
 const ventures = [
   {
-    name: "Portfolio Company",
-    descriptor: "One-line description of what they do",
-    logo: "/ventures/placeholder.svg",
-    url: "https://example.com",
+    name: "Replit",
+    descriptor: "AI-powered software development platform",
+    logo: "/ventures/replit.png",
+    url: "https://replit.com",
   },
   {
-    name: "Portfolio Company",
-    descriptor: "One-line description of what they do",
-    logo: "/ventures/placeholder.svg",
-    url: "https://example.com",
+    name: "Lucid Bots",
+    descriptor: "Robotics for dangerous, hard-to-reach work",
+    logo: "/ventures/lucidbots.png",
+    url: "https://lucidbots.com",
   },
   {
-    name: "Portfolio Company",
-    descriptor: "One-line description of what they do",
-    logo: "/ventures/placeholder.svg",
-    url: "https://example.com",
+    name: "Ledger",
+    descriptor: "Security and self-custody for digital assets",
+    logo: "/ventures/ledger.svg",
+    url: "https://ledger.com",
+  },
+  {
+    name: "Deribit",
+    descriptor: "Crypto options and futures exchange",
+    logo: "/ventures/deribit.jpg",
+    url: "https://deribit.com",
+  },
+  {
+    name: "Yext",
+    descriptor: "Digital presence and search platform for brands",
+    logo: "/ventures/yext.svg",
+    url: "https://yext.com",
+  },
+  {
+    name: "Off Court",
+    descriptor: "The first social media platform owned by NBA and WNBA players",
+    logo: "/ventures/offcourt.svg",
+    url: "https://offcourt.io",
   },
 ];
 
@@ -186,6 +204,9 @@ export default function Portfolio() {
                     <img
                       src={venture.logo}
                       alt={venture.name}
+                      onError={(e) => {
+                        e.currentTarget.src = "/ventures/placeholder.svg";
+                      }}
                       className="max-h-16 w-auto object-contain grayscale opacity-70 transition-all group-hover:grayscale-0 group-hover:opacity-100"
                     />
                   </div>
