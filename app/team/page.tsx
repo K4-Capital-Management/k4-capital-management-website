@@ -9,13 +9,13 @@ const teamMembers = [
   {
     name: "Kevin Fee",
     role: "Managing Partner",
-    image: "/team/kevin-fee.png",
+    image: "/team/kevin-fee.jpg",
     href: "/team/kevin-fee",
   },
   {
     name: "Cole McNally",
     role: "Investment Associate",
-    image: "/team/cole-mcnally.png",
+    image: "/team/cole-mcnally.jpg",
     href: "/team/cole-mcnally",
   },
 ];

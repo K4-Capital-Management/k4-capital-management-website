@@ -38,7 +38,7 @@ export default function ColeMcNally() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/team/cole-mcnally.png"
+                src="/team/cole-mcnally.jpg"
                 alt="Cole McNally"
                 className="w-full aspect-square object-cover rounded-lg"
               />
