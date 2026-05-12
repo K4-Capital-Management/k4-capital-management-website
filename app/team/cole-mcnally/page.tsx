@@ -60,7 +60,7 @@ export default function ColeMcNally() {
 
               <div className="prose prose-lg max-w-none">
                 <p className="text-gray-700 leading-relaxed mb-6">
-                  Cole McNally is an Investment Associate at K4 Capital Management, where he focuses on investment analysis, deal sourcing, and portfolio monitoring across the firm's private credit and real estate investments. He supports transaction execution in mezzanine debt and structured equity opportunities through financial modeling and due diligence.
+                  Cole McNally is an Investment Associate at K4 Capital Management, where he focuses on investment analysis, deal sourcing, and portfolio monitoring across the firm's private credit, real estate, and venture capital investments. He supports transaction execution in mezzanine debt, structured equity, and early-stage venture opportunities through financial modeling and due diligence.
                 </p>
 
                 <p className="text-gray-700 leading-relaxed mb-6">
