@@ -56,38 +56,49 @@ const ventures = [
   {
     name: "Replit",
     descriptor: "AI-powered software development platform",
-    logo: "/ventures/replit.png",
+    logo: "/ventures/replit.webp",
     url: "https://replit.com",
+    fullBleed: true,
   },
   {
     name: "Lucid Bots",
     descriptor: "Robotics for dangerous, hard-to-reach work",
-    logo: "/ventures/lucidbots.png",
+    logo: "/ventures/lucidbots.jpg",
     url: "https://lucidbots.com",
-  },
-  {
-    name: "Ledger",
-    descriptor: "Security and self-custody for digital assets",
-    logo: "/ventures/ledger.svg",
-    url: "https://ledger.com",
+    fullBleed: true,
+    lightBg: true,
+    zoom: 0.85,
   },
   {
     name: "Deribit",
     descriptor: "Crypto options and futures exchange",
     logo: "/ventures/deribit.jpg",
     url: "https://deribit.com",
+    fullBleed: true,
+    fit: "cover" as const,
   },
   {
-    name: "Yext",
-    descriptor: "Digital presence and search platform for brands",
-    logo: "/ventures/yext.svg",
-    url: "https://yext.com",
+    name: "Ledger",
+    descriptor: "Security and self-custody for digital assets",
+    logo: "/ventures/ledger.jpg",
+    url: "https://ledger.com",
+    fullBleed: true,
   },
   {
     name: "Off Court",
     descriptor: "The first social media platform owned by NBA and WNBA players",
-    logo: "/ventures/offcourt.svg",
+    logo: "/ventures/offcourt.jpg",
     url: "https://offcourt.io",
+    fullBleed: true,
+    zoom: 0.65,
+  },
+  {
+    name: "Yext",
+    descriptor: "Digital presence and search platform for brands",
+    logo: "/ventures/yext.png",
+    url: "https://yext.com",
+    fullBleed: true,
+    fit: "cover" as const,
   },
 ];
 
@@ -197,21 +208,50 @@ export default function Portfolio() {
                   initial={{ opacity: 0, y: 40 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="group block rounded-lg border border-gray-100 bg-gray-50 p-8 text-center transition-all hover:shadow-md hover:bg-white"
+                  className={
+                    venture.fullBleed
+                      ? `group relative block overflow-hidden rounded-lg border border-gray-100 transition-all hover:shadow-md ${venture.lightBg ? "bg-white" : "bg-black"}`
+                      : "group block rounded-lg border border-gray-100 bg-gray-50 p-8 text-center transition-all hover:shadow-md hover:bg-white"
+                  }
                 >
-                  <div className="flex h-20 items-center justify-center mb-6">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={venture.logo}
-                      alt={venture.name}
-                      onError={(e) => {
-                        e.currentTarget.src = "/ventures/placeholder.svg";
-                      }}
-                      className="max-h-16 w-auto object-contain grayscale opacity-70 transition-all group-hover:grayscale-0 group-hover:opacity-100"
-                    />
-                  </div>
-                  <h3 className="text-lg font-light text-k4-navy mb-1">{venture.name}</h3>
-                  <p className="text-sm text-gray-500">{venture.descriptor}</p>
+                  {venture.fullBleed ? (
+                    <>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={venture.logo}
+                        alt={venture.name}
+                        style={venture.zoom ? { transform: `scale(${venture.zoom})` } : undefined}
+                        className={`absolute inset-0 h-full w-full ${venture.fit === "cover" ? "object-cover" : "object-contain"}`}
+                      />
+                      {/* Invisible spacer mirrors a standard card's layout so heights match */}
+                      <div className="invisible p-8 text-center" aria-hidden="true">
+                        <div className="h-20 mb-6" />
+                        <p className="text-lg mb-1">{venture.name}</p>
+                        <p className="text-sm">{venture.descriptor}</p>
+                      </div>
+                      {/* Description revealed on hover */}
+                      <div className="absolute inset-0 flex flex-col items-center justify-center bg-k4-navy/85 px-6 text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                        <h3 className="text-lg font-light text-white mb-1">{venture.name}</h3>
+                        <p className="text-sm text-gray-200">{venture.descriptor}</p>
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div className="flex h-20 items-center justify-center mb-6">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={venture.logo}
+                          alt={venture.name}
+                          onError={(e) => {
+                            e.currentTarget.src = "/ventures/placeholder.svg";
+                          }}
+                          className="max-h-16 w-auto object-contain grayscale opacity-70 transition-all group-hover:grayscale-0 group-hover:opacity-100"
+                        />
+                      </div>
+                      <h3 className="text-lg font-light text-k4-navy mb-1">{venture.name}</h3>
+                      <p className="text-sm text-gray-500">{venture.descriptor}</p>
+                    </>
+                  )}
                 </motion.a>
               ))}
             </div>
