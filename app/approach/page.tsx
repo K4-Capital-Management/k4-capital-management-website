@@ -12,15 +12,15 @@ export default function Approach() {
       {/* Hero Section - Nashville Skyline with Overlay Text */}
       <section className="relative h-[600px] flex items-center justify-center px-6">
         {/* Background Image */}
-        <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 z-0 overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img 
+          <img
             src="/team/nashville-skyline-hero.jpg"
             alt="Nashville Skyline"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover blur-[3px] scale-105"
           />
           {/* Stronger dark overlay for better text readability */}
-          <div className="absolute inset-0 bg-black/60" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/65 to-black/70" />
         </div>
 
         {/* Hero Text - Centered vertically and horizontally */}
