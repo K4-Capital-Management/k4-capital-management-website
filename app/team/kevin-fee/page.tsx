@@ -38,7 +38,7 @@ export default function KevinFee() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/team/kevin-fee.jpg"
+                src="/team/kevin-fee.png"
                 alt="Kevin Fee"
                 className="w-full aspect-square object-cover rounded-lg"
               />
