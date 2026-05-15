@@ -11,7 +11,6 @@ export default function Navigation() {
   const pathname = usePathname();
 
   const navItems = [
-    { name: "Approach", href: "/approach" },
     { name: "Portfolio", href: "/portfolio" },
     { name: "Team", href: "/team" },
     { name: "Contact", href: "/contact" },
