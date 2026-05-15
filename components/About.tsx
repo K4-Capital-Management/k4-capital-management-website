@@ -35,8 +35,8 @@ export default function About() {
             K4 Capital Management is a multi-strategy investment platform involved in a diverse 
             range of investment activities. While our primary focus is on real estate, we also 
             maintain the flexibility to invest in various asset classes, encompassing both debt 
-            and equity opportunities. We are recognized as a leading investor across the capital 
-            stack in real estate assets, loans, and special situations.
+            and equity opportunities. We are an investor across the capital stack in
+            real estate assets, venture capital, and special situations.
           </p>
         </motion.div>
       </div>
