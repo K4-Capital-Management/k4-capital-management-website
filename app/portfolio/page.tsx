@@ -54,6 +54,14 @@ const projects = [
 // Venture capital investments. Add a logo file to /public/ventures/ for each entry.
 const ventures = [
   {
+    name: "Irys",
+    descriptor: "Unified AI platform for legal work",
+    logo: "/ventures/irys.png",
+    url: "https://www.irys.ai",
+    fullBleed: true,
+    fit: "cover" as const,
+  },
+  {
     name: "Replit",
     descriptor: "AI-powered software development platform",
     logo: "/ventures/replit.webp",
