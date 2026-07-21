@@ -49,20 +49,20 @@ export default function BobbyBrand() {
           <div className="md:col-span-2">
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
               <h2 className="text-3xl font-light text-k4-navy mb-6">Brand Overview</h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">The Bobby Hotel brand represented an innovative approach to boutique hospitality, blending contemporary design, local culture, and experiential programming into a cohesive brand platform. Following the successful launch of The Bobby Nashville, the brand demonstrated strong unit economics and guest reception, positioning it for strategic expansion into select markets.</p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">K4's investment in The Bobby brand platform extended beyond individual properties to encompass the broader brand infrastructure, intellectual property, and growth strategy. This investment reflected our expertise in evaluating scalable hospitality concepts and providing flexible capital solutions that support both property-level investments and corporate growth initiatives. K4 has since realized this investment.</p>
-              <p className="text-lg text-gray-700 leading-relaxed">The brand's expansion strategy focused on markets with strong fundamentals for experiential hospitality, emphasizing quality over quantity and maintaining the authentic character that differentiated The Bobby from conventional hotel offerings. This disciplined approach to growth aligned with K4's investment philosophy of supporting sustainable value creation.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">As co-founder and creator of the brand, we conceived The Bobby from inception and built its foundational infrastructure, launching The Bobby Nashville as the platform's flagship property. The brand represented an innovative approach to boutique hospitality, blending contemporary design, local culture, and experiential programming into a cohesive platform. Following that successful launch, the brand demonstrated strong unit economics and guest reception, establishing the foundation for strategic expansion into select markets.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">Our role in The Bobby extended beyond individual properties to encompass the broader brand infrastructure, intellectual property, and growth strategy, reflecting our expertise in building scalable hospitality concepts and deploying flexible capital across both property-level and corporate initiatives. We have since realized this investment through the sale of the brand in 2026.</p>
+              <p className="text-lg text-gray-700 leading-relaxed">The brand's expansion strategy focused on markets with strong fundamentals for experiential hospitality, emphasizing quality over quantity while preserving the authentic character that differentiated The Bobby from conventional hotel offerings. This disciplined approach reflected our philosophy of building sustainable, enduring value.</p>
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }} className="mt-12">
               <h2 className="text-3xl font-light text-k4-navy mb-6">Investment Highlights</h2>
               <ul className="space-y-4 text-gray-700">
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Proven brand concept with strong unit economics and operational track record</span></li>
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Strategic expansion plan targeting high-growth urban markets</span></li>
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Differentiated positioning in growing lifestyle hospitality segment</span></li>
+                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Proven brand concept with strong unit economics and an operational track record</span></li>
+                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Differentiated positioning in the growing lifestyle hospitality segment</span></li>
+                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Scalable brand platform built from concept through launch and expansion</span></li>
                 <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Experienced management team with hospitality development expertise</span></li>
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Scalable brand platform with institutional backing</span></li>
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Multiple value creation pathways including brand appreciation and property-level returns</span></li>
+                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Value created across both brand appreciation and property-level returns</span></li>
+                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Investment successfully realized through the sale of the brand</span></li>
               </ul>
             </motion.div>
           </div>

@@ -54,18 +54,19 @@ export default function BobbyNashville() {
           <div className="md:col-span-2">
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
               <h2 className="text-3xl font-light text-k4-navy mb-6">Project Overview</h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">The Bobby Nashville was a distinctive boutique hotel concept that combined contemporary design with southern hospitality. Located in Nashville's thriving urban core, the property offered a unique alternative to traditional hotel experiences, catering to both leisure travelers and business visitors seeking authentic local character.</p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">The hotel's design philosophy emphasized local art, curated experiences, and community engagement, positioning it as a lifestyle destination within Nashville's evolving hospitality landscape. This differentiated approach attracted a loyal guest base and strong performance metrics in a competitive market.</p>
-              <p className="text-lg text-gray-700 leading-relaxed">K4's investment in The Bobby Nashville aligned with our strategy of identifying opportunities in experiential hospitality concepts with strong brand positioning and operational excellence. K4 has since realized this investment. The property demonstrated our ability to underwrite and finance innovative hotel concepts that command premium rates through differentiated positioning.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">As co-founder and creator of The Bobby Nashville, we conceived and developed the boutique hotel from inception, directing its design, brand identity, and guest experience in the heart of downtown Nashville. The property combined contemporary design with genuine southern hospitality to create a distinctive, experiential concept that resonated with both local and destination guests.</p>
+              <p className="text-lg text-gray-700 leading-relaxed">The Bobby established a strong position in the market and served as the flagship and foundation for the broader Bobby brand. It exemplified our ability to create value from concept through completion, and we have since realized the investment through a full exit in 2025.</p>
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }} className="mt-12">
               <h2 className="text-3xl font-light text-k4-navy mb-6">Investment Highlights</h2>
               <ul className="space-y-4 text-gray-700">
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Distinctive boutique hotel brand with strong local identity and guest loyalty</span></li>
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Prime Nashville location with excellent accessibility to downtown attractions</span></li>
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Differentiated market positioning supporting premium rate structure</span></li>
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Experienced management team with proven track record in boutique hospitality</span></li>
+                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Distinctive boutique hotel with strong local identity and guest loyalty</span></li>
+                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Prime downtown Nashville location with excellent access to the city's core attractions</span></li>
+                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Differentiated market positioning that supported a premium rate structure</span></li>
+                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Experienced management team with a proven track record in boutique hospitality</span></li>
+                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Flagship asset that anchored the broader Bobby brand platform</span></li>
+                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Investment successfully realized through a full exit</span></li>
               </ul>
             </motion.div>
           </div>
