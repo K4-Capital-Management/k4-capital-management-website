@@ -46,8 +46,8 @@ export default function WestinTampa() {
           <div className="md:col-span-2">
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
               <h2 className="text-3xl font-light text-k4-navy mb-6">Project Overview</h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">The Westin Tampa Bay represents a flagship hospitality investment in one of Florida's most dynamic business and leisure markets. This waterfront property serves as a premier destination for both corporate travelers and convention attendees, benefiting from Tampa's position as a major Southeast business hub and growing tourism market. The hotel's location provides direct access to Tampa's downtown business district and waterfront attractions.</p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">The property combines full-service hotel amenities with extensive meeting and conference facilities, positioning it to capture demand from Tampa's robust convention center and expanding corporate presence. Florida's favorable business climate and population growth trends support continued strength in both business travel and leisure tourism, providing multiple demand drivers for the property's performance.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">The Westin Tampa Bay was a flagship hospitality investment in one of Florida's most dynamic business and leisure markets. This waterfront property served as a premier destination for both corporate travelers and convention attendees, benefiting from Tampa's position as a major Southeast business hub and growing tourism market. The hotel's location provided direct access to Tampa's downtown business district and waterfront attractions.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">The property combined full-service hotel amenities with extensive meeting and conference facilities, positioning it to capture demand from Tampa's robust convention center and expanding corporate presence. Florida's favorable business climate and population growth trends supported strength in both business travel and leisure tourism, providing multiple demand drivers for the property's performance. K4 has since realized this investment.</p>
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }} className="mt-12">
@@ -72,6 +72,7 @@ export default function WestinTampa() {
                 <div><dt className="text-sm font-medium text-gray-500">Brand</dt><dd className="text-base text-gray-900">Westin Hotels & Resorts</dd></div>
                 <div><dt className="text-sm font-medium text-gray-500">Asset Class</dt><dd className="text-base text-gray-900">Hospitality</dd></div>
                 <div><dt className="text-sm font-medium text-gray-500">Investment Type</dt><dd className="text-base text-gray-900">Private Credit / Real Estate</dd></div>
+                <div><dt className="text-sm font-medium text-gray-500">Status</dt><dd className="text-base text-gray-900">Realized (Exited)</dd></div>
               </dl>
             </motion.div>
           </div>

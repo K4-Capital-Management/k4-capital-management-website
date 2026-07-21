@@ -46,9 +46,9 @@ export default function DistriktHotel() {
           <div className="md:col-span-2">
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
               <h2 className="text-3xl font-light text-k4-navy mb-6">Project Overview</h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">Distrikt Hotel New York City represents a contemporary hospitality investment in Manhattan's dynamic urban landscape. The property combines modern design sensibilities with strategic positioning to serve both business and leisure travelers in one of the world's most competitive hotel markets. Its location provides convenient access to Manhattan's commercial districts, cultural attractions, and transportation infrastructure.</p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">The hotel's positioning within New York's diverse hospitality ecosystem reflects careful market analysis and operational strategy. The property targets value-conscious business travelers and tourists seeking quality accommodations with contemporary amenities at accessible price points, a segment demonstrating resilient demand characteristics through market cycles.</p>
-              <p className="text-lg text-gray-700 leading-relaxed">K4's investment in Distrikt Hotel reflects our ability to evaluate opportunities in gateway markets with complex supply-demand dynamics. The investment demonstrates our expertise in underwriting urban hotel assets and structuring capital solutions appropriate for Manhattan's institutional-quality hospitality market. This exposure provides portfolio diversification across geographic markets and property types.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">Distrikt Hotel New York City was a contemporary hospitality investment in Manhattan's dynamic urban landscape. The property combined modern design sensibilities with strategic positioning to serve both business and leisure travelers in one of the world's most competitive hotel markets. Its location provided convenient access to Manhattan's commercial districts, cultural attractions, and transportation infrastructure.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">The hotel's positioning within New York's diverse hospitality ecosystem reflected careful market analysis and operational strategy. The property targeted value-conscious business travelers and tourists seeking quality accommodations with contemporary amenities at accessible price points, a segment demonstrating resilient demand characteristics through market cycles.</p>
+              <p className="text-lg text-gray-700 leading-relaxed">K4's investment in Distrikt Hotel reflected our ability to evaluate opportunities in gateway markets with complex supply-demand dynamics. K4 has since realized this investment. The investment demonstrated our expertise in underwriting urban hotel assets and structuring capital solutions appropriate for Manhattan's institutional-quality hospitality market.</p>
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }} className="mt-12">
@@ -72,6 +72,7 @@ export default function DistriktHotel() {
                 <div><dt className="text-sm font-medium text-gray-500">Brand</dt><dd className="text-base text-gray-900">Distrikt Hotel</dd></div>
                 <div><dt className="text-sm font-medium text-gray-500">Asset Class</dt><dd className="text-base text-gray-900">Select Service Hospitality</dd></div>
                 <div><dt className="text-sm font-medium text-gray-500">Investment Type</dt><dd className="text-base text-gray-900">Real Estate</dd></div>
+                <div><dt className="text-sm font-medium text-gray-500">Status</dt><dd className="text-base text-gray-900">Realized (Exited)</dd></div>
               </dl>
             </motion.div>
           </div>
