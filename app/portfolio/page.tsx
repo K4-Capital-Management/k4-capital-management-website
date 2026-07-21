@@ -20,6 +20,7 @@ const projects = [
     description: "Boutique hotel experience in Music City",
     image: "/projects/bobby-nashville/bobby-nashville-1.jpg",
     href: "/portfolio/bobby-nashville",
+    exited: true,
   },
   {
     title: "THE BOBBY BRAND",
@@ -27,6 +28,7 @@ const projects = [
     description: "Expanding boutique hotel brand",
     image: "/projects/bobby-brand/bobby-brand-1.jpg",
     href: "/portfolio/bobby-brand",
+    exited: true,
   },
   {
     title: "OAK STEAKHOUSE",
@@ -36,11 +38,12 @@ const projects = [
     href: "/portfolio/oak-steakhouse",
   },
   {
-    title: "DISTRIKT HOTEL NEW YORK CITY",
+    title: "DISTRIKT HOTEL NYC",
     location: "New York, NY",
     description: "Contemporary hotel in Manhattan",
     image: "/projects/distrikt-hotel/distrikt-hotel-1.jpg",
     href: "/portfolio/distrikt-hotel",
+    exited: true,
   },
   {
     title: "THE WESTIN TAMPA BAY",
@@ -48,6 +51,7 @@ const projects = [
     description: "Waterfront hotel and conference center",
     image: "/projects/westin-tampa/westin-tampa-1.jpg",
     href: "/portfolio/westin-tampa",
+    exited: true,
   },
 ];
 
@@ -197,9 +201,16 @@ export default function Portfolio() {
                       {/* Subtle hover darkening */}
                       <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all" />
                     </div>
-                    <h3 className="text-2xl font-light text-k4-navy mb-2 group-hover:text-gray-600 transition-colors">
-                      {project.title}
-                    </h3>
+                    <div className="flex items-center gap-3 mb-2">
+                      <h3 className="text-2xl font-light text-k4-navy group-hover:text-gray-600 transition-colors">
+                        {project.title}
+                      </h3>
+                      {project.exited && (
+                        <span className="rounded-full border border-gray-300 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-gray-500">
+                          Realized
+                        </span>
+                      )}
+                    </div>
                     <p className="text-sm text-gray-500 mb-2">{project.location}</p>
                     <p className="text-gray-600">{project.description}</p>
                   </Link>

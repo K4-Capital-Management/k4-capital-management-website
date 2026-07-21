@@ -64,15 +64,15 @@ export default function KevinFee() {
                 </p>
 
                 <p className="text-gray-700 leading-relaxed mb-6">
-                  Kevin's career began in equity trading and capital markets on the trading floor of the New York Stock Exchange for the firm Adler Coleman & Company, where he held senior positions including Managing Director and Co-head of Floor Operations. His deep understanding of market dynamics and capital structure informed his transition into real estate investment, where he has successfully originated, structured, and managed investments across the capital stack in hospitality, mixed-use, and special situations.
+                  Kevin's career began in equity trading and capital markets on the trading floor of the New York Stock Exchange for the firm Bear Wagner Specialists, where he held senior positions including Managing Director and Co-head of Floor Operations. His deep understanding of market dynamics and capital structure informed his transition into real estate investment, where he has successfully originated, structured, and managed investments across the capital stack in hospitality, mixed-use, and special situations.
                 </p>
 
                 <p className="text-gray-700 leading-relaxed mb-6">
-                  At K4 Capital Management, Kevin oversees the firm's investment strategy and portfolio management, focusing on mezzanine debt, subordinated loans, and structured equity in middle-market real estate transactions.
+                  At K4 Capital Management, Kevin oversees the firm's investment strategy and portfolio management, focusing on structured equity in middle-market real estate transactions.
                 </p>
 
                 <p className="text-gray-700 leading-relaxed">
-                  Kevin graduated from the State University of New York at Cortland in 1990 with a degree in Economics. He maintains residences in both Montauk and Manhattan.
+                  Kevin graduated from the State University of New York at Cortland in 1990 with a degree in Economics. He maintains residences in Montauk, NY and Nashville, TN.
                 </p>
               </div>
             </motion.div>

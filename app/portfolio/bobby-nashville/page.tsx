@@ -30,7 +30,12 @@ export default function BobbyNashville() {
         <div className="mx-auto max-w-7xl">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <Link href="/portfolio" className="text-gray-300 hover:text-white mb-4 inline-flex items-center gap-2">← Back to Portfolio</Link>
-            <h1 className="text-5xl md:text-6xl font-light text-white mb-4 mt-6">The Bobby Nashville</h1>
+            <div className="flex flex-wrap items-center gap-4 mb-4 mt-6">
+              <h1 className="text-5xl md:text-6xl font-light text-white">The Bobby Nashville</h1>
+              <span className="rounded-full border border-gray-400 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-gray-200">
+                Realized
+              </span>
+            </div>
             <p className="text-xl text-gray-300">Nashville, TN</p>
           </motion.div>
         </div>
@@ -49,9 +54,9 @@ export default function BobbyNashville() {
           <div className="md:col-span-2">
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
               <h2 className="text-3xl font-light text-k4-navy mb-6">Project Overview</h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">The Bobby Nashville represents a distinctive boutique hotel concept that combines contemporary design with southern hospitality. Located in Nashville's thriving urban core, the property offers a unique alternative to traditional hotel experiences, catering to both leisure travelers and business visitors seeking authentic local character.</p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">The hotel's design philosophy emphasizes local art, curated experiences, and community engagement, positioning it as a lifestyle destination within Nashville's evolving hospitality landscape. This differentiated approach has attracted a loyal guest base and strong performance metrics in a competitive market.</p>
-              <p className="text-lg text-gray-700 leading-relaxed">K4's investment in The Bobby Nashville aligns with our strategy of identifying opportunities in experiential hospitality concepts with strong brand positioning and operational excellence. The property demonstrates our ability to underwrite and finance innovative hotel concepts that command premium rates through differentiated positioning.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">The Bobby Nashville was a distinctive boutique hotel concept that combined contemporary design with southern hospitality. Located in Nashville's thriving urban core, the property offered a unique alternative to traditional hotel experiences, catering to both leisure travelers and business visitors seeking authentic local character.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">The hotel's design philosophy emphasized local art, curated experiences, and community engagement, positioning it as a lifestyle destination within Nashville's evolving hospitality landscape. This differentiated approach attracted a loyal guest base and strong performance metrics in a competitive market.</p>
+              <p className="text-lg text-gray-700 leading-relaxed">K4's investment in The Bobby Nashville aligned with our strategy of identifying opportunities in experiential hospitality concepts with strong brand positioning and operational excellence. K4 has since realized this investment. The property demonstrated our ability to underwrite and finance innovative hotel concepts that command premium rates through differentiated positioning.</p>
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }} className="mt-12">
@@ -61,7 +66,6 @@ export default function BobbyNashville() {
                 <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Prime Nashville location with excellent accessibility to downtown attractions</span></li>
                 <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Differentiated market positioning supporting premium rate structure</span></li>
                 <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Experienced management team with proven track record in boutique hospitality</span></li>
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Foundation asset for broader Bobby brand expansion strategy</span></li>
               </ul>
             </motion.div>
           </div>
@@ -75,6 +79,7 @@ export default function BobbyNashville() {
                 <div><dt className="text-sm font-medium text-gray-500">Brand</dt><dd className="text-base text-gray-900">The Bobby Brand</dd></div>
                 <div><dt className="text-sm font-medium text-gray-500">Asset Class</dt><dd className="text-base text-gray-900">Hospitality</dd></div>
                 <div><dt className="text-sm font-medium text-gray-500">Investment Type</dt><dd className="text-base text-gray-900">Real Estate</dd></div>
+                <div><dt className="text-sm font-medium text-gray-500">Status</dt><dd className="text-base text-gray-900">Realized (Exited)</dd></div>
               </dl>
             </motion.div>
           </div>
