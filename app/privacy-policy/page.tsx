@@ -106,7 +106,7 @@ export default function PrivacyPolicy() {
 
             <div className="mt-12 pt-8 border-t border-gray-200">
               <p className="text-sm text-gray-500">
-                K4 Capital Management LLC is a private investment platform. The information presented on this website does not constitute investment advice or recommendations and does not constitute an offer to sell or a solicitation of an offer to buy an interest in any entity managed by K4 Capital Management LLC and may not be relied upon in connection with any offer or sale of any interests or securities.
+                KIV Capital Management LLC is a private investment platform. The information presented on this website does not constitute investment advice or recommendations and does not constitute an offer to sell or a solicitation of an offer to buy an interest in any entity managed by KIV Capital Management LLC and may not be relied upon in connection with any offer or sale of any interests or securities.
               </p>
             </div>
           </motion.div>
