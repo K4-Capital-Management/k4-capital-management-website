@@ -38,11 +38,12 @@ const projects = [
     href: "/portfolio/oak-steakhouse",
   },
   {
-    title: "DISTRIKT HOTEL NEW YORK CITY",
+    title: "DISTRIKT HOTEL NYC",
     location: "New York, NY",
     description: "Contemporary hotel in Manhattan",
     image: "/projects/distrikt-hotel/distrikt-hotel-1.jpg",
     href: "/portfolio/distrikt-hotel",
+    exited: true,
   },
   {
     title: "THE WESTIN TAMPA BAY",
@@ -50,6 +51,7 @@ const projects = [
     description: "Waterfront hotel and conference center",
     image: "/projects/westin-tampa/westin-tampa-1.jpg",
     href: "/portfolio/westin-tampa",
+    exited: true,
   },
 ];
 
@@ -198,11 +200,6 @@ export default function Portfolio() {
                       />
                       {/* Subtle hover darkening */}
                       <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all" />
-                      {project.exited && (
-                        <span className="absolute top-3 left-3 rounded-full bg-k4-navy/90 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-white">
-                          Exited
-                        </span>
-                      )}
                     </div>
                     <div className="flex items-center gap-3 mb-2">
                       <h3 className="text-2xl font-light text-k4-navy group-hover:text-gray-600 transition-colors">

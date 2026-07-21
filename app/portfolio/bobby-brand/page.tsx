@@ -25,7 +25,12 @@ export default function BobbyBrand() {
         <div className="mx-auto max-w-7xl">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <Link href="/portfolio" className="text-gray-300 hover:text-white mb-4 inline-flex items-center gap-2">← Back to Portfolio</Link>
-            <h1 className="text-5xl md:text-6xl font-light text-white mb-4 mt-6">The Bobby Brand</h1>
+            <div className="flex flex-wrap items-center gap-4 mb-4 mt-6">
+              <h1 className="text-5xl md:text-6xl font-light text-white">The Bobby Brand</h1>
+              <span className="rounded-full border border-gray-400 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-gray-200">
+                Realized
+              </span>
+            </div>
             <p className="text-xl text-gray-300">Multi-Location Expansion</p>
           </motion.div>
         </div>
@@ -44,9 +49,9 @@ export default function BobbyBrand() {
           <div className="md:col-span-2">
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
               <h2 className="text-3xl font-light text-k4-navy mb-6">Brand Overview</h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">The Bobby Hotel brand represents an innovative approach to boutique hospitality, blending contemporary design, local culture, and experiential programming into a cohesive brand platform. Following the successful launch of The Bobby Nashville, the brand has demonstrated strong unit economics and guest reception, positioning it for strategic expansion into select markets.</p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">K4's investment in The Bobby brand platform extends beyond individual properties to encompass the broader brand infrastructure, intellectual property, and growth strategy. This investment reflects our expertise in evaluating scalable hospitality concepts and providing flexible capital solutions that support both property-level investments and corporate growth initiatives.</p>
-              <p className="text-lg text-gray-700 leading-relaxed">The brand's expansion strategy focuses on markets with strong fundamentals for experiential hospitality, emphasizing quality over quantity and maintaining the authentic character that differentiates The Bobby from conventional hotel offerings. This disciplined approach to growth aligns with K4's investment philosophy of supporting sustainable value creation.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">The Bobby Hotel brand represented an innovative approach to boutique hospitality, blending contemporary design, local culture, and experiential programming into a cohesive brand platform. Following the successful launch of The Bobby Nashville, the brand demonstrated strong unit economics and guest reception, positioning it for strategic expansion into select markets.</p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">K4's investment in The Bobby brand platform extended beyond individual properties to encompass the broader brand infrastructure, intellectual property, and growth strategy. This investment reflected our expertise in evaluating scalable hospitality concepts and providing flexible capital solutions that support both property-level investments and corporate growth initiatives. K4 has since realized this investment.</p>
+              <p className="text-lg text-gray-700 leading-relaxed">The brand's expansion strategy focused on markets with strong fundamentals for experiential hospitality, emphasizing quality over quantity and maintaining the authentic character that differentiated The Bobby from conventional hotel offerings. This disciplined approach to growth aligned with K4's investment philosophy of supporting sustainable value creation.</p>
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }} className="mt-12">
@@ -71,6 +76,7 @@ export default function BobbyBrand() {
                 <div><dt className="text-sm font-medium text-gray-500">Strategy</dt><dd className="text-base text-gray-900">Growth Capital</dd></div>
                 <div><dt className="text-sm font-medium text-gray-500">Asset Class</dt><dd className="text-base text-gray-900">Lifestyle Hospitality</dd></div>
                 <div><dt className="text-sm font-medium text-gray-500">Capital Type</dt><dd className="text-base text-gray-900">Private Equity</dd></div>
+                <div><dt className="text-sm font-medium text-gray-500">Status</dt><dd className="text-base text-gray-900">Realized (Exited)</dd></div>
               </dl>
             </motion.div>
           </div>

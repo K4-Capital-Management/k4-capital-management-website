@@ -22,7 +22,12 @@ export default function DistriktHotel() {
         <div className="mx-auto max-w-7xl">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <Link href="/portfolio" className="text-gray-300 hover:text-white mb-4 inline-flex items-center gap-2">← Back to Portfolio</Link>
-            <h1 className="text-5xl md:text-6xl font-light text-white mb-4 mt-6">Distrikt Hotel New York City</h1>
+            <div className="flex flex-wrap items-center gap-4 mb-4 mt-6">
+              <h1 className="text-5xl md:text-6xl font-light text-white">Distrikt Hotel New York City</h1>
+              <span className="rounded-full border border-gray-400 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-gray-200">
+                Realized
+              </span>
+            </div>
             <p className="text-xl text-gray-300">New York, NY</p>
           </motion.div>
         </div>
