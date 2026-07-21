@@ -19,7 +19,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
-              A multi-strategy private credit platform focused on real estate-backed investments across the capital stack.
+              A multi-strategy investment platform focused on real estate and venture capital investments.
             </p>
           </div>
 
