@@ -20,6 +20,7 @@ const projects = [
     description: "Boutique hotel experience in Music City",
     image: "/projects/bobby-nashville/bobby-nashville-1.jpg",
     href: "/portfolio/bobby-nashville",
+    exited: true,
   },
   {
     title: "THE BOBBY BRAND",
@@ -27,6 +28,7 @@ const projects = [
     description: "Expanding boutique hotel brand",
     image: "/projects/bobby-brand/bobby-brand-1.jpg",
     href: "/portfolio/bobby-brand",
+    exited: true,
   },
   {
     title: "OAK STEAKHOUSE",
@@ -196,10 +198,22 @@ export default function Portfolio() {
                       />
                       {/* Subtle hover darkening */}
                       <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all" />
+                      {project.exited && (
+                        <span className="absolute top-3 left-3 rounded-full bg-k4-navy/90 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-white">
+                          Exited
+                        </span>
+                      )}
                     </div>
-                    <h3 className="text-2xl font-light text-k4-navy mb-2 group-hover:text-gray-600 transition-colors">
-                      {project.title}
-                    </h3>
+                    <div className="flex items-center gap-3 mb-2">
+                      <h3 className="text-2xl font-light text-k4-navy group-hover:text-gray-600 transition-colors">
+                        {project.title}
+                      </h3>
+                      {project.exited && (
+                        <span className="rounded-full border border-gray-300 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-gray-500">
+                          Realized
+                        </span>
+                      )}
+                    </div>
                     <p className="text-sm text-gray-500 mb-2">{project.location}</p>
                     <p className="text-gray-600">{project.description}</p>
                   </Link>
