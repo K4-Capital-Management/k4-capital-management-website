@@ -22,15 +22,14 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 flex h-full items-center justify-center px-6">
-        <div className="max-w-5xl text-center">
+        <div className="max-w-7xl text-center">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="mb-6 text-5xl font-light leading-tight tracking-tight text-white md:text-7xl"
+            className="mb-6 text-4xl font-light leading-tight tracking-tight text-white sm:text-5xl lg:whitespace-nowrap lg:text-4xl xl:text-5xl 2xl:text-6xl"
           >
-            A Trusted Partner in Real Asset Investing{" "}
-            <span className="block mt-2">Across the Capital Stack</span>
+            A Trusted Partner in Real Asset Investing
           </motion.h1>
           
           <motion.p

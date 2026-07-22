@@ -41,7 +41,7 @@ export default function Contact() {
               Let's discuss your next investment.
             </h1>
             <p className="text-xl text-gray-300">
-              Reach out to explore opportunities across the capital stack.
+              Reach out to explore investment opportunities.
             </p>
           </motion.div>
         </div>
