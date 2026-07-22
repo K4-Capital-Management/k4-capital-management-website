@@ -31,7 +31,7 @@ export default function BobbyBrand() {
                 Realized
               </span>
             </div>
-            <p className="text-xl text-gray-300">Multi-Location Expansion</p>
+            <p className="text-xl text-gray-300">Nashville, TN</p>
           </motion.div>
         </div>
       </section>
@@ -49,8 +49,7 @@ export default function BobbyBrand() {
           <div className="md:col-span-2">
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
               <h2 className="text-3xl font-light text-k4-navy mb-6">Brand Overview</h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">As co-founder and creator of the brand, K4 conceived The Bobby from inception and built its foundational infrastructure, launching The Bobby Nashville as the platform's flagship property. The brand represented an innovative approach to boutique hospitality, blending contemporary design, local culture, and experiential programming into a cohesive platform.</p>
-              <p className="text-lg text-gray-700 leading-relaxed">Our role in The Bobby Brand extended beyond individual properties to encompass the broader brand infrastructure, intellectual property, and growth strategy, reflecting our expertise in building scalable hospitality concepts and deploying flexible capital across both property-level and corporate initiatives.</p>
+              <p className="text-lg text-gray-700 leading-relaxed">As co-founder and creator of the brand, K4 conceived The Bobby from inception and built its foundational infrastructure, launching The Bobby Nashville. The brand represented an innovative approach to boutique hospitality, blending contemporary design, local culture, and experiential programming into a cohesive platform.</p>
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }} className="mt-12">
@@ -68,7 +67,7 @@ export default function BobbyBrand() {
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.3 }} className="bg-gray-50 rounded-lg p-8 sticky top-32">
               <h3 className="text-xl font-semibold text-k4-navy mb-6">Investment Details</h3>
               <dl className="space-y-4">
-                <div><dt className="text-sm font-medium text-gray-500">Markets</dt><dd className="text-base text-gray-900">Multi-Location Portfolio</dd></div>
+                <div><dt className="text-sm font-medium text-gray-500">Location</dt><dd className="text-base text-gray-900">Nashville, TN</dd></div>
                 <div><dt className="text-sm font-medium text-gray-500">Investment Type</dt><dd className="text-base text-gray-900">Brand Platform / Corporate</dd></div>
                 <div><dt className="text-sm font-medium text-gray-500">Strategy</dt><dd className="text-base text-gray-900">Growth Capital</dd></div>
                 <div><dt className="text-sm font-medium text-gray-500">Asset Class</dt><dd className="text-base text-gray-900">Lifestyle Hospitality</dd></div>

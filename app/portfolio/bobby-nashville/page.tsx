@@ -55,7 +55,7 @@ export default function BobbyNashville() {
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
               <h2 className="text-3xl font-light text-k4-navy mb-6">Project Overview</h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">As co-founder and creator of The Bobby Nashville, K4 conceived and developed the boutique hotel from inception, directing its design, brand identity, and guest experience in the heart of downtown Nashville. The property combined contemporary design with genuine southern hospitality to create a distinctive, experiential concept that resonated with both local and destination guests.</p>
-              <p className="text-lg text-gray-700 leading-relaxed">The Bobby established a strong position in the market and served as the flagship and foundation for the broader Bobby brand. It exemplified our ability to create value from concept through completion, and we have since realized the investment through a full exit in 2025.</p>
+              <p className="text-lg text-gray-700 leading-relaxed">The Bobby established a strong position in the market and exemplified our ability to create value from concept through completion. We have since realized the investment through a full exit in 2025.</p>
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }} className="mt-12">
