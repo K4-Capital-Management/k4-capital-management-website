@@ -64,8 +64,6 @@ export default function BobbyNashville() {
                 <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Distinctive boutique hotel with strong local identity and guest loyalty</span></li>
                 <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Prime downtown Nashville location with excellent access to the city's core attractions</span></li>
                 <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Differentiated market positioning that supported a premium rate structure</span></li>
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Experienced management team with a proven track record in boutique hospitality</span></li>
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Flagship asset that anchored the broader Bobby brand platform</span></li>
                 <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Investment successfully realized through a full exit</span></li>
               </ul>
             </motion.div>
