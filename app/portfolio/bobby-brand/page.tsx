@@ -58,10 +58,8 @@ export default function BobbyBrand() {
               <ul className="space-y-4 text-gray-700">
                 <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Proven brand concept with strong unit economics and an investment track record</span></li>
                 <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Differentiated positioning in the growing lifestyle hospitality segment</span></li>
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Scalable brand platform built from concept through launch and expansion</span></li>
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Experienced management team with hospitality development expertise</span></li>
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Value created across both brand appreciation and property-level returns</span></li>
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Investment successfully realized through the sale of the brand</span></li>
+                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Experienced management with hospitality development expertise</span></li>
+                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Value created across both guest appreciation and property-level returns</span></li>
               </ul>
             </motion.div>
           </div>
