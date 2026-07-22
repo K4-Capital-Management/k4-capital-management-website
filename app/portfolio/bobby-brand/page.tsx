@@ -56,7 +56,7 @@ export default function BobbyBrand() {
             <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }} className="mt-12">
               <h2 className="text-3xl font-light text-k4-navy mb-6">Investment Highlights</h2>
               <ul className="space-y-4 text-gray-700">
-                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Proven brand concept with strong unit economics and an operational track record</span></li>
+                <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Proven brand concept with strong unit economics and an investment track record</span></li>
                 <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Differentiated positioning in the growing lifestyle hospitality segment</span></li>
                 <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Scalable brand platform built from concept through launch and expansion</span></li>
                 <li className="flex items-start gap-3"><span className="text-k4-gold text-xl">•</span><span>Experienced management team with hospitality development expertise</span></li>
