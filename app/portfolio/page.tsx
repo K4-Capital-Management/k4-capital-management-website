@@ -24,8 +24,8 @@ const projects = [
   },
   {
     title: "THE BOBBY BRAND",
-    location: "Multi-location",
-    description: "Expanding boutique hotel brand",
+    location: "Nashville, TN",
+    description: "Boutique hotel brand",
     image: "/projects/bobby-brand/bobby-brand-1.jpg",
     href: "/portfolio/bobby-brand",
     exited: true,
