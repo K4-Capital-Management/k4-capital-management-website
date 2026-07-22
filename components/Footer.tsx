@@ -90,7 +90,7 @@ export default function Footer() {
               href="https://www.linkedin.com/company/k4-capital-management"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity"
+              className="hover:text-white transition-colors"
               aria-label="LinkedIn"
             >
               <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24">
