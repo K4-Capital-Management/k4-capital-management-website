@@ -64,7 +64,7 @@ export default function KevinFee() {
                 </p>
 
                 <p className="text-gray-700 leading-relaxed mb-6">
-                  Kevin's career began in equity trading and capital markets on the trading floor of the New York Stock Exchange for the firm Bear Wagner Specialists, where he held senior positions including Managing Director and Co-head of Floor Operations. His deep understanding of market dynamics and capital structure informed his transition into real estate investment, where he has successfully originated, structured, and managed investments across the capital stack in hospitality, mixed-use, and special situations.
+                  Kevin's career began in equity trading and capital markets on the trading floor of the New York Stock Exchange for the firm Bear Wagner Specialists, where he held senior positions including Managing Director and Co-head of Floor Operations. His deep understanding of market dynamics and capital structure informed his transition into real estate investment, where he has successfully originated, structured, and managed investments in hospitality, mixed-use, and special situations.
                 </p>
 
                 <p className="text-gray-700 leading-relaxed mb-6">

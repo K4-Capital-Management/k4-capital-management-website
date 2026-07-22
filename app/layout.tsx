@@ -6,14 +6,14 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
   title: "K4 Capital Management | Real Asset Investing",
-  description: "A disciplined approach to private credit investing across the real estate capital stack.",
+  description: "A disciplined approach to private credit investing in real estate.",
   icons: {
     icon: '/icon.png',
     apple: '/icon.png',
   },
   openGraph: {
     title: 'K4 Capital Management',
-    description: 'A disciplined approach to private credit investing across the real estate capital stack.',
+    description: 'A disciplined approach to private credit investing in real estate.',
     url: 'https://k4capitalmanagement.com',
     siteName: 'K4 Capital Management',
     images: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'K4 Capital Management',
-    description: 'A disciplined approach to private credit investing across the real estate capital stack.',
+    description: 'A disciplined approach to private credit investing in real estate.',
     images: ['/og-image.jpg'],
   },
 };
